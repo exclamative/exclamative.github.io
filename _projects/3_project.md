@@ -1,81 +1,10 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: MEAT
+description: Interaction between Meaning Types
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
-category: work
+category: past
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+I was the PI of a project called <strong>MEAT</strong> (Interaction between Meaning Types) for 3 years and a halff (2016-2019). It was funded by the Spanish Ministry of Economy and Competitiveness, Ref. FFI2015-66732-P, EUR. 23,716. MEAT counts with <a href="https://www.upf.edu/web/laia-mayol" target="_blank" class="normal2">Laia Mayol</a> and <a href="http://www.beritgehrke.com" target="_blank" class="normal2">Berit Gehrke</a> as its researchers, as well as Zoltan Zato and Katherine E. Fraser as PhD students. The general purpose of MEAT is to gain a better understanding of the linguistic mechanisms that underlie the interaction of content types (at-issue, implicated, presupposed) in the semantic composition of complex expressions of natural language. In order to do so, we aim to provide detailed and precise, formally and explanatorily-adequate analyses of the building blocks of linguistic expressions that fall within three main case studies, namely gradability and evaluativity (subjective and presupposed meaning components denoted by degree expressions), dispositionality (effort and willful readings in abilitative modals) and discourse structure (speech acts, rhetorical relations and information packaging). Our focus will be on the meanings that are not asserted but implicated or presupposed, and the way they interact with asserted meaning components. We aim to address research questions that concern three axes: compositionality (How do different meaning types interact across dimensions?), our theoretical framework (What is the most adequate model to represent such interaction?) and our methodology (How should we collect empirical evidence that provides crisp answers to the previous questions?). By taking into consideration both cross-linguistic and experimentally-collected data, and by remaining faithful to the broad theoretical framework of formal semantics, we hope to provide critical evidence that leads us to challenge or refine current formal models of the structure of discourse, as well as to increase and disseminate our scientific knowledge of natural language. For timely information about or scientific activities, please visit our blog at <a href="https://ffi2015meat.wordpress.com/" target="_blank" class="normal2">https://ffi2015meat.wordpress.com/</a>.

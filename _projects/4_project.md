@@ -1,80 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: MOSCA
+description: At the intersection of modification and scalarity
+img: assets/img/6.jpg
+importance: 4
+category: past
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+I was the PI of a project called <strong>MOSCA</strong> (At the intersection of modification and scalarity: the semantic mapping of scale structure onto the interpretation of modifiers), Ministerio de Econom&iacute;a y Competitividad, Ref. FFI2012-34170, 2013-2016, EUR. 15,000. The MOSCA team included <a href="http://www.beritgehrke.com" target="_blank" class="normal2">Berit Gehrke</a> (CNRS), <a href="https://sites.google.com/view/fabienne-martin/home" target="_blank" class="normal2">Fabienne Martin</a> (Universit&auml;t Stuttgart), Galit W. Sassoon (Bar Ilan University) and myself. The topic of this project falls under the greater enterprise of understanding how lexical semantics and syntactic structure engage in determining the meaning of complex structures. MOSCA's object of study is modification, and its overall goal is to provide the truth- and felicity conditions of a series of modification constructions that are affected by scalarity in several ways. We will concentrate on how scalarity plays a role in the interpretation of gradable adjectives, intensifiers, adverbs that are sensitive to the scale structure of verbs, nominals with cumulative reference, or gradable constructions without apparent modification, such as exclamatives. With the aid of the formal apparatus of static and dynamic semantics we will undergo research that will consider cross-linguistic data from Romance, Germanic, Slavic and Semitic retrieved via introspection, corpora and experimental methods. We hope that this project will shed light not only on the compositional semantics of various modifiers and modifiees, but also on the properties of different kinds of scales as well as on the current debate regarding the at-issue content vs. projective content distinction. Success in achieving the goals of this project will yield both a better understanding of natural language and a refinement of the tests and tools that constitute our current methodology for the study of semantics and pragmatics.
