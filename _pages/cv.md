@@ -16,5 +16,5 @@ Since 2018, my research has expanded toward the study of linguistic abilities in
 
 I have developed my research career at internationally recognized centers in formal linguistics, such as the Goethe Universität-Frankfurt am Main (through a contract with the Graduiertenkolleg Satzarten) and the University of Chicago (through a Beatriu de Pinós fellowship), and in Spain through a Ramón y Cajal fellowship at ILLA–CSIC (Grupo de Lingüística y Ciencia Cognitiva). Since 2015, I have been affiliated with the Department of Linguistics and Basque Studies at the University of the Basque Country (UPV/EHU) and with the Hizuntzalaritza Teorikorako Taldea (Group for Theoretical Linguistics, [HiTT](http://www.hittlinguistics.eus)), first as an Ikerbasque Research Fellow and, since 2020, as a tenured researcher (*Ikertzaile Doktore Iraunkorra*).
 
-<h4> <i class="fa-solid fa-book"></i> Download my academic <strong>CV</strong> as a .pdf <a href="{{ '/assets/pdf/CV_ElenaCastroviejo.pdf' | relative_url }}." target="_blank">here</a>. </h4>
+<h4> <i class="fa-solid fa-book"></i> Download my academic <strong>CV</strong> as a .pdf <a href="{{ '/assets/pdf/CV_ElenaCastroviejo.pdf' | relative_url }}" target="_blank">here</a>. </h4>
 
