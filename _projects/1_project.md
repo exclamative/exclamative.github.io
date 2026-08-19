@@ -4,7 +4,7 @@ title: FUNLAT
 description: Functional Language in Atypical Development
 img: assets/img/12.jpg
 importance: 1
-category: ongoing
+category: past
 
 ---
 
